@@ -2,6 +2,10 @@ const express =require('express');
 const path=require('path');
 const app=express();
 
+const db =require('./mysql');
+
+const port=8080;
+
 app.use(express.json());
 var cors=require('cors');
 app.use(cors());
@@ -9,12 +13,17 @@ app.use(cors());
 app.use(express.static(path.join(__dirname, 'hiddenbingotest/build')));
 
 
-app.listen(8080,()=>{
-    console.log("8080 연결")
+app.listen(port,()=>{
+    console.log("port : 8080 연결")
 })
 
 app.get('/', function (req, res) {
   res.sendFile(path.join(__dirname, '/hiddenbingotest/build/index.html'));
+  db.query('select * from customer', function(err, results, fields){
+    if (err) throw err;
+    res.send(results);
+    console.log(results);
+  })
 });
 
 
