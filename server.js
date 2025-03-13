@@ -2,7 +2,7 @@ const express =require('express');
 const path=require('path');
 const app=express();
 
-const db =require('./mysql');
+const db =require('./hiddenbingotest/src/mysql');
 
 const port=8080;
 
