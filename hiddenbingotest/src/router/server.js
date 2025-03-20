@@ -1,7 +1,9 @@
 const express =require('express');
 const path=require('path');
 const app=express();
-
+import mysql from "../mysql.js"
+import db from 'mysql';
+let getdb;
 const db =require('../App');
 
 const port=8080;
@@ -25,8 +27,6 @@ app.get('/', function (req, res) {
     console.log(results);
   })
 });
-
-
 
 
 

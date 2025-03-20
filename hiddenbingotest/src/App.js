@@ -1,6 +1,6 @@
 import logo from './logo.svg';
 import './css/App.css';
-// const Test =require('./component/Test.js')
+import Test from './component/Test';
 
 function App() {
   return (
@@ -18,7 +18,7 @@ function App() {
         >
           Learn Reacttttttttt
         </a>
-        {/* <Test/> */}
+        <Test/>
       </header>
     </div>
   );
