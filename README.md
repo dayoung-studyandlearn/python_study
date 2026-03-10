@@ -1,6 +1,9 @@
 # python_study
 데이터 분석을 위한 python 공부 기록  
 
+📚 시작일 : 2026-03-11  
+🎯 목표 : 데이터 분석 Python 역량 증진하기
+
 notes → 개념 정리  
 practice → 실습 코드 ( .ipynb, .py)  
 resources → 참고 자료  
