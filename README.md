@@ -17,7 +17,7 @@ images → 그래프, 결과 이미지
 ## 공부 진행도
 
 
-[ ] day01. [파이썬 기초와 데이터 분석 준비](nodes/day01__hello_python.md)  
+[ ] day01. [파이썬 기초와 데이터 분석 준비](nodes/day1__hello_python.md)  
 [ ] day02. 데이터 프레임  
 [ ] day03. 데이터 분석 기초  
 [ ] day04. 데이터 가공  
