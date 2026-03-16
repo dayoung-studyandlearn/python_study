@@ -8,6 +8,7 @@
 
 #jupyter
 .ipynb_checkpoints/
+.virtual_documents/
 
 #python
 __pycache__/
