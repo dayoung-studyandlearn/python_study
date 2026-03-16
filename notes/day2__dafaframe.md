@@ -42,4 +42,9 @@
 
 ## 2. 데이터 프레임 만들기 - 시험 성적 데이터를 만들어보자!
 
-*practices 폴더에 있는 day2 실습 참고!*
+[practices 폴더에 있는 day2 실습 참고!_making dataframe](../practices/day02__makingdataframe.ipynb)
+
+## 3. 외부 데이터 이용하기 - 축적된 시험 성적 데이터를 불러오자!
+
+[practices 폴더에 있는 day2 실습 참고!_makingdataframexlsx](../practices/day02__makingdataframexlsx.ipynb)
+[practices 폴더에 있는 day2 실습 참고!_makingdataframecsv](../practices/day02__makingdataframecsv.ipynb)
